@@ -1,0 +1,116 @@
+body {
+  font-family: Lobster, Serif;
+  color: #333333;
+  text-align: center;
+  background-color: #7A8295;
+}
+
+.navbar {
+  position: fixed;
+  font-size: 1.5EM;
+  background-color: #ADC7EC;
+}
+
+h5 {
+  font-family: Droid Sans, Serif;
+}
+
+.fontDroid {
+  font-family: Droid Sans, Serif;
+}
+
+.imgP {
+  border: 2px solid #942033;
+  height: 190px;
+  width: 350px;
+}
+
+.imgP:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=30);  
+}
+
+
+#navigation a {
+  color: #333333;
+}
+
+#navigation a:hover {
+  color: #942033;
+}
+
+#homeDiv {
+  height: 600px;
+  border: 5px solid #333333;
+  position: relative;
+  margin-top: 49px;
+  background-image: url("https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/13445552_10210000188865956_8425736498464491279_n.jpg?oh=ea39dc8064c95c4f5f3687128d3defa5&oe=57E85E53");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#aboutMe {
+  padding-top: 50px;
+}
+
+#myprojects {
+  padding-top: 50px;
+}
+
+#aboutMeDiv {
+  height: 600px;
+  padding-top: 35px;
+  position: relative;
+  border: 5px solid #333333;
+  background-color: #FDFFCE;
+  text-align: left;
+  float: none;
+}
+
+#projects {
+  height: 720px;
+  position: relative;
+  background-color: #A6D785;
+  border: 5px solid #333333;
+}
+
+#contactDiv {
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  background-color: #ADC7EC;
+}
+
+#mypic {
+  position: relative;
+  border-radius: 15%;
+  padding: 5px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+#tag {
+  font-size: 1em;
+  padding-top: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+button {
+  font-family:Droid Sans, Serif;
+  outline: none;
+}
+
+.btn {
+  border: 2px solid #942033;
+  color: #333333;
+}
+
+a {
+  color: #333333;
+}
