@@ -70,8 +70,8 @@ a:hover {
   -webkit-transform-origin: 50% 50%;
   -webkit-perspective: 1000px;
   perspective: 1000px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;
+  backface-visibility: hidden;*/
   /*Above code should make jitter go away .. but then the links wont work?*/
   -moz-transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
