@@ -63,8 +63,8 @@ a:hover {
   background-color: #B9121B;
   height: 100%;
   width: 100%;
-  /*position: absolute;*/
-  position: relative;
+  position: absolute;
+  /*position: relative;*/
   transition: transform 1s;
   transform-style: preserve-3d;
   -webkit-transform-origin: 50% 50%;
@@ -73,8 +73,8 @@ a:hover {
   /*-webkit-backface-visibility: hidden;
   backface-visibility: hidden;*/
   /*Above code should make jitter go away .. but then the links wont work?*/
-  -moz-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  /*-moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);*/
 }
 
 
@@ -91,7 +91,7 @@ a:hover {
   backface-visibility: hidden;
   position: absolute;
   width: 100%;
-  -webkit-transform-style: preserve-3d; /*added to test flicker*/
+  /*-webkit-transform-style: preserve-3d; /*added to test flicker*/*/
 
 }
 
