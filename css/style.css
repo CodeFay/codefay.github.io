@@ -82,7 +82,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform:rotateY(0deg); /*added to designated this as the front*/
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .card .back {
